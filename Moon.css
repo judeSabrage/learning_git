@@ -1,0 +1,17 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  gap: 20px;
+  height: 95vh;
+}
+.box {
+  background-color: blueviolet;
+  border: solid black;
+  color: blanchedalmond;
+}
+.third {
+  align-self: flex-start;
+  flex-basis: auto;
+}
